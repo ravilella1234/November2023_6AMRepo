@@ -1,13 +1,17 @@
 package hdfc.loans.carloans;
 
-public  class A 
+public class A 
 {
 	public int x = 100;
+	public final static String cname = "vmware";
 	
 	public void m1()
 	{
 		System.out.println("iam m1 from A");
+		x=200;
 	}
+	
+	
 
 	public static void main(String[] args) 
 	{
