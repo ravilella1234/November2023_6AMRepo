@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.fasterxml.jackson.databind.deser.impl.PropertyBasedCreator;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -49,6 +52,9 @@ public class BaseTest
 		fis = new FileInputStream(projectpath+"\\src\\test\\resources\\or.properties");
 		orProp = new Properties();
 		orProp.load(fis);
+		
+		fis = new FileInputStream(projectpath+"\\src\\test\\resources\\log4jconfig.properties");
+		PropertyConfigurator.configure(fis);
 	}
 	
 	public static void launch(String browser)

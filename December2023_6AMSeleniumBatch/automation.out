@@ -1,0 +1,6 @@
+init the properties files....
+opened the browser : chrome
+Navigating to url : https://www.amazon.in
+selecting the option from dropbox By using the locator : searchDropdownBox
+Entering the search text By usng the locator : field-keywords
+Clicking rhe element By using locator : //*[@id="nav-search-submit-button"]
