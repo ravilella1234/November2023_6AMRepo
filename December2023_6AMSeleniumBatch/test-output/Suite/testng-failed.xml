@@ -2,33 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="regression"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testng.TNG_002">
+      <class name="testng.TestDependency">
         <methods>
-          <include name="amazon"/>
+          <include name="white"/>
+          <include name="green"/>
+          <include name="blue"/>
+          <include name="orange"/>
         </methods>
-      </class> <!-- testng.TNG_002 -->
-      <class name="testng.LinksTesting1">
-        <methods>
-          <include name="linktesting1"/>
-        </methods>
-      </class> <!-- testng.LinksTesting1 -->
-      <class name="testng.RadioButton1">
-        <methods>
-          <include name="radioButtonTest"/>
-        </methods>
-      </class> <!-- testng.RadioButton1 -->
-      <class name="testng.CheckBox1">
-        <methods>
-          <include name="checkboxTest"/>
-        </methods>
-      </class> <!-- testng.CheckBox1 -->
+      </class> <!-- testng.TestDependency -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
