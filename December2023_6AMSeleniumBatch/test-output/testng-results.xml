@@ -1,169 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T01:18:43Z" name="Default suite" finished-at="2024-02-09T01:18:43Z" duration-ms="225">
+  <suite started-at="2024-02-20T01:24:40Z" name="Default suite" finished-at="2024-02-20T01:24:44Z" duration-ms="3194">
     <groups>
     </groups>
-    <test started-at="2024-02-09T01:18:43Z" name="Default test" finished-at="2024-02-09T01:18:43Z" duration-ms="225">
-      <class name="testng.TestUser">
-        <test-method signature="createUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="createUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="37" status="PASS">
+    <test started-at="2024-02-20T01:24:40Z" name="Default test" finished-at="2024-02-20T01:24:44Z" duration-ms="3194">
+      <class name="excelOperations.DataManagementFinalVersion">
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:excelOperations.DataManagementFinalVersion@13b13b5d]" started-at="2024-02-20T01:24:44Z" name="f" data-provider="getData" finished-at="2024-02-20T01:24:44Z" duration-ms="45" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[email1@domain.com]]>
+                <![CDATA[{ExpectedResult=LoginSuccuss, RunMode=Y, UserPassword=ravi2021, UserName=ravilella.2015@gmail.com, Browser=chrome}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="createUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="createUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="10" status="PASS">
+        </test-method> <!-- f -->
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:excelOperations.DataManagementFinalVersion@13b13b5d]" started-at="2024-02-20T01:24:44Z" name="f" data-provider="getData" finished-at="2024-02-20T01:24:44Z" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mozilla]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperAdmin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11111]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[eamil2@domain.com]]>
+                <![CDATA[{ExpectedResult=LoginSuccuss, RunMode=N, UserPassword=password2, UserName=user2, Browser=firefox}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="createUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="createUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[User]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[99999]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[email3@domain.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="deleteUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="deleteUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[email1@domain.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="deleteUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="deleteUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mozilla]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperAdmin]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[11111]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[eamil2@domain.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="deleteUser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testng.TestUser@2e1d27ba]" started-at="2024-02-09T01:18:43Z" name="deleteUser" data-provider="getData" finished-at="2024-02-09T01:18:43Z" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[User]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[99999]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[email3@domain.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-      </class> <!-- testng.TestUser -->
+        </test-method> <!-- f -->
+      </class> <!-- excelOperations.DataManagementFinalVersion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
